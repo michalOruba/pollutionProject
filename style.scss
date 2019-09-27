@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  font-family: Raleway, sans-serif;
+}
+
+header{
+  height: 150px;
+  background-color: #52528d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+select{
+  display: block;
+  margin: 5vh auto;
+}
+
+
+#main-container {
+  display: flex;
+  justify-items: center;
+
+  #map-container{
+    width: 50%;
+    height: auto;
+  }
+
+  #charts-container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    svg {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+
+
+
+.tick line{
+  stroke: #ccc;
+  stroke-dasharray: 10, 5;
+}
+
+#test{
+color: #00FFFF;  //"DOLNO�L�SKIE"        // 200000,   Śląskie
+color: #ffffff;  //"KUJAWSKO-POMORSKIE"          // 400000, Opolskie
+color: #0000FF;  //"LUBELSKIE"          // 600000, Wielkopolskie
+color: #64d6ba;  //"LUBUSKIE"           // 800000,
+color: #008000;  //"��DZKIE"          // 1000000,
+color: #00FF00;  //"MA�OPOLSKIE"          // 1200000,
+color: #000080;  //"MAZOWIECKIE"          // 1400000,
+color: #808000;  //"OPOLSKIE"           // 1600000,
+color: #800080;  //"PODKARPACKIE"           // 1800000,
+color: #FF0000;  //"PODLASKIE"          // 2000000,
+color: #C0C0C0;  //"POMORSKIE"          // 2200000,
+color: #008080;  //"�L�SKIE"          // 2400000,
+color: #FFFFFF;  //"�WIʘTOKRZYSKIE"           // 2600000,
+color: #FFFF00;  //"WARMI�SKO-MAZURSKIE"          // 2800000,
+color: #FF00FF;  //"WIELKOPOLSKIE"          // 3000000,
+color: #808080; //"ZACHODNIOPOMORSKIE"      // 3200000    
+}           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

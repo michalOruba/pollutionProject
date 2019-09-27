@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Zanieczyszczenie powietrza, a nowotwory</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Zanieczyszczenie powietrza, a nowotwory</h1>
+    <h3>Zależności pomiędzy zanieczyszczeniem środowiska, a zgonami spowodowanymi nowotworami.</h1>
+  </header>
+  <div id="main-container">
+    <div id="map-container">
+      <select>
+        <option value='dwutlenek węgla'>Dwutlenek węgla</option>
+        <option value='tlenek węgla'>Tlenek węgla</option>
+        <option value='tlenki azotu'>Tlenki azotu</option>
+        <option value='podtlenek azotu'>Podtlenek azotu</option>
+        <option value='dwutlenek siarki'>Dwutlenek siarki</option>
+        <option value='metan'>Metan</option>
+        <option value='nie zorganizowana'>Nie zorganizowana</option>
+      </select>
+      <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" id="map">
+      </svg>
+    </div>
+    <div id="charts-container">
+      <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" id="pie-chart">
+      </svg>
+      <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" id="bar-chart">
+      </svg>
+    </div>
+  </div>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

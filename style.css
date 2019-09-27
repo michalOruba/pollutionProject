@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  font-family: Raleway, sans-serif;
+}
+
+header {
+  height: 150px;
+  background-color: #52528d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+select {
+  display: block;
+  margin: 5vh auto;
+}
+
+#main-container {
+  display: flex;
+  justify-items: center;
+}
+
+#main-container #map-container {
+  width: 50%;
+  height: auto;
+}
+
+#main-container #charts-container {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+#main-container #charts-container svg {
+  margin: 0 auto;
+  display: block;
+}
+
+.tick line {
+  stroke: #ccc;
+  stroke-dasharray: 10, 5;
+}
+
+#test {
+  color: #00FFFF;
+  color: #ffffff;
+  color: #0000FF;
+  color: #64d6ba;
+  color: #008000;
+  color: #00FF00;
+  color: #000080;
+  color: #808000;
+  color: #800080;
+  color: #FF0000;
+  color: #C0C0C0;
+  color: #008080;
+  color: #FFFFFF;
+  color: #FFFF00;
+  color: #FF00FF;
+  color: #808080;
+}
